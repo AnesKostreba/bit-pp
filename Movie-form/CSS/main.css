@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+.container{
+    border: 1px solid black;
+}
+.titleContainer{
+    border: 0.5px solid black;
+    padding: 15px;
+}
