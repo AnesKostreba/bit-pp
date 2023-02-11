@@ -6,19 +6,21 @@ class Movie{
     }
     getData(){
         return this.name+", duration:"+this.length+"min "+", genre:"+this.genre;
-        
     }
     getName(){
         return this.name;
     }
 
-
     result(){
         var sum = 0;
-        for (let i = 0; i < neki.length; i += 1) {
-        sum = neki[i] + sum;
-        
+        for (let i = 0; i < niz.length; i += 1) {
+        sum = niz[i] + sum;
     }
         return $('#lengthMovies').text(sum);
     }
+}
+
+
+class Program{
+    constructor(date,counter,length);
 }
